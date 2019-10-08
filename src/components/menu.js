@@ -42,19 +42,7 @@ const Menu = () => (
       </li>
       <li>
         <Link
-          to="/services"
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-        >
-          Services
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/services"
+          to="/portfolio"
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
@@ -62,6 +50,18 @@ const Menu = () => (
           }}
         >
           Portfolio
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/contact"
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+        >
+          Contact
         </Link>
       </li>
     </ul>
