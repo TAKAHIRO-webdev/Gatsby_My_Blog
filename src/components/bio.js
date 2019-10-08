@@ -57,7 +57,13 @@ const Bio = () => {
         Written by <strong>{author}</strong><br /> 元ネットワーク屋さんのインフラエンジニア。アラサーからプログラミングを学び始めました。
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          Twitter</a>もやってます
+          Twitter
+        </a>
+         と
+        <a href={`https://github.com/TAKAHIRO-webdev/`}>
+          Github
+        </a>
+        もやってます
       </p>
     </div>
   )
