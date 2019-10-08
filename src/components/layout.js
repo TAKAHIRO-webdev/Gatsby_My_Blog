@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
+import Header from "./header"
+import Menu from "./menu"
+
 
 class Layout extends React.Component {
   render() {
@@ -52,6 +54,9 @@ class Layout extends React.Component {
       )
     }
     return (
+      <>
+      <Header />
+      <Menu />
       <div
         style={{
           marginLeft: `auto`,
@@ -68,6 +73,7 @@ class Layout extends React.Component {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
+      </>
     )
   }
 }
