@@ -14,7 +14,12 @@ class Portfolio extends React.Component {
         <SEO title="Portfolio" />
         <h1>Portfolio</h1>
         <p>
-
+          ポートフォリオは 
+          <a href="https://www.resume.id/tk_infra" 
+             target="_blank" 
+             rel="noopener noreferrer"> 
+          RESUME </a>
+          にのせる予定です。
         </p>
       </Layout>
     )
